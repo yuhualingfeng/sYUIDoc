@@ -1,2 +1,2 @@
 # sYUIDoc
-all about yuidoc
+all about YUIDoc
