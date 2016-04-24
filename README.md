@@ -1,0 +1,2 @@
+# sYUIDoc
+all about yuidoc
