@@ -1,0 +1,87 @@
+{
+    "project": {},
+    "files": {
+        "test\\test.js": {
+            "name": "test\\test.js",
+            "modules": {},
+            "classes": {
+                "MyClass": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "shortname": "MyClass",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "test\\test.js",
+            "line": 1,
+            "description": "This is the description for my class",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "test\\test.js",
+            "line": 9,
+            "description": "My property descrition. Like other pieces of your comment blocks\nthis can span multiple lines",
+            "itemtype": "property",
+            "name": "name",
+            "type": "{Object}",
+            "default": "\"foo\"",
+            "class": "MyClass"
+        },
+        {
+            "file": "test\\test.js",
+            "line": 19,
+            "description": "My method description. Like other pieces of your comment blocks,\nthis can span multiple lines.",
+            "itemtype": "method",
+            "name": "Fn",
+            "params": [
+                {
+                    "name": "foo",
+                    "description": "Argument 1",
+                    "type": "String"
+                },
+                {
+                    "name": "config",
+                    "description": "A config object",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "The name on the config object",
+                            "type": "String"
+                        },
+                        {
+                            "name": "callback",
+                            "description": "A callback function on the config object",
+                            "type": "Function"
+                        }
+                    ]
+                },
+                {
+                    "name": "extra",
+                    "description": "Do extra,optional work",
+                    "type": "Boolean",
+                    "optional": true,
+                    "optdefault": "false"
+                }
+            ],
+            "return": {
+                "description": "Returns true on success",
+                "type": "Boolean"
+            },
+            "class": "MyClass"
+        }
+    ],
+    "warnings": []
+}
